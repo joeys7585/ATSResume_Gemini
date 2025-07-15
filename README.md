@@ -24,32 +24,32 @@ Built with **Streamlit**, **spaCy**, and **Gemini AI**, this tool helps job seek
 ## 📦 Installation
 
 ### 1. Clone the repository
-
+```
 git clone https://github.com/yourusername/ai-resume-optimizer.git
 cd ai-resume-optimizer
-
+```
 
 ### 2. Install dependencies
-
+```
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
+```
 
 ### 3. Create a `.env` file
 
 Create a `.env` file in the project root and add your Gemini API key:
-
+```
 GEMINI_API_KEY=your-gemini-api-key-here
-
+```
 
 > 🔐 **Important:** Never commit your `.env` file to GitHub. Add it to `.gitignore`.
 
 ---
 
 ## ▶️ Running the App
-
+```
 streamlit run app.py
-
+```
 
 1. Upload your resume (`.docx`) and job description (`.txt`)
 2. Choose an action:
@@ -79,14 +79,14 @@ streamlit run app.py
 ---
 
 ## 📁 Project Structure
-
+```
 .
 ├── app.py # Main Streamlit app
 ├── requirements.txt # Python dependencies
 ├── .env # Gemini API key (not committed)
 ├── README.md # Project documentation
 
-
+```
 ---
 
 ## 🔒 Security
