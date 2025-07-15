@@ -1,0 +1,5 @@
+streamlit>=1.32.0
+spacy>=3.7.2
+docx2txt>=1.0
+google-generativeai>=0.4.1
+rich>=13.7.1
