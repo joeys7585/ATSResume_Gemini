@@ -102,7 +102,6 @@ streamlit run app.py
 - [ ] Export enhanced resume as `.docx`
 - [ ] Support for `.pdf` resumes
 - [ ] Downloadable feedback/report
-- [ ] Deploy to Streamlit Cloud or Render
 
 ---
 
@@ -114,7 +113,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📄 License
 
-MIT License © 2025 [Your Name]
+MIT License © 2025
 
 ---
 
